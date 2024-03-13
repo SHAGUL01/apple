@@ -1,0 +1,385 @@
+
+*{
+    font-family:"Playfair Display";
+}
+#DSA{
+    background-color: #000000;
+ }
+
+ #fg{
+    background-color: black;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width:767px)
+{
+  #fg{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}  
+}
+/* iphone 15 pro*/
+
+
+#P1{
+    position: relative;
+    top: 0%;
+}
+
+#P11{
+    width: 100%;
+    height: 100%;
+}
+
+#P12{
+    position:absolute;
+    top: 100px;
+    left: 450px;
+}
+
+#PQ1{
+font-size: 50px;
+color: white;
+font-weight: 800;
+}
+
+#PQ2{
+    color: white;
+}
+
+#PQ3{
+    box-shadow:  0px 0px 5px #0de4dd,
+                 0px 0px 30px  #0de7e7,
+                 0px 0px 120px   #151616;
+     box-shadow: inset 0px 0px 5px #0de4dd,
+                 0px 0px 30px  #0de7e7,
+                 0px 0px 120px   #151616;
+     background-color: #151616;
+     color: white;
+     }
+
+     #PQ3:hover{
+     background-color: rgb(136, 82, 120);
+     }
+
+     @media screen and (max-width:767px)
+{
+    #P12{
+        position:absolute;
+        top: 200px;
+        left: 20px;
+    }
+    
+ #P11{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+#PQ1{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    }
+}
+
+@media screen and (max-width:1300px)
+{
+    #P12{
+        position:absolute;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    
+ #P11{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+#PQ1{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    }
+}
+
+     /* iphone 15 pro end*/
+
+     /*======iphon 15=========*/
+
+     #PP1{
+        position: relative;
+        top: 0%;
+    }
+    
+    #PP11{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #PP12{
+        position:absolute;
+        top: 100px;
+        left: 500px;
+    }
+    
+    #PPQ1{
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+    }
+    
+    #PPQ2{
+        font-size: 30px;
+        color: white;
+    }
+    
+    #PPQ3{
+        box-shadow:  0px 0px 5px #0de4dd,
+                     0px 0px 30px  #0de7e7,
+                     0px 0px 120px   #151616;
+         box-shadow: inset 0px 0px 5px #0de4dd,
+                     0px 0px 30px  #0de7e7,
+                     0px 0px 120px   #151616;
+         background-color: #151616;
+         color: white;
+         }
+    
+         #PPQ3:hover{
+         background-color: rgb(136, 82, 120);
+         }
+         @media screen and (max-width:767px)
+         {
+            #PP12{
+                position:absolute;
+                top: 40px;
+                left: 100px;
+            }
+            
+            #PP11{
+                object-fit: cover;
+                width: 100%;
+                height: 500px;
+            }
+            
+
+            #PPQ1{
+            font-size: 40px;
+            color: white;
+            font-weight: 800;
+            }
+         }
+         @media screen and (max-width:1300px)
+         {
+            #PP12{
+                position:absolute;
+                top: 70%;
+                left:50%;
+                transform:translate(-50%,-50%);
+            }
+            
+            #PP11{
+                object-fit: cover;
+                width: 100%;
+                height: 500px;
+            }
+            
+
+            #PPQ1{
+            font-size: 40px;
+            color: white;
+            font-weight: 800;
+            }
+         }
+
+     /*======iphon 15 end======*/
+
+ /*======iphon se ======*/
+#po{
+  background-color: white;
+}
+
+   #we{
+    width: 80%;
+    height: 80%;
+   }
+
+   #dff{
+    color: red;
+    font-size: 50px;
+   }
+
+   #dfff{
+    font-size: 30px;
+   }
+
+   #rff{
+    position: relative;
+    top: 150px;
+   }
+   #url{
+    font-weight: 900;
+    color: black;
+    font-size: 70px;
+   }
+
+ /*======iphon se end======*/
+/* iphones*/
+  
+     #C1{
+        width: 70%;
+        height: 70%;
+        border-radius: 30px;
+     }
+
+     #D1{
+        position: relative;
+     }
+
+     #A1{
+        font-size:30px ;
+        color: white;
+     }
+     #A2{
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+     }
+     #A3{
+        color: white;
+     }
+ /* iphones end*/
+
+ /*  Ways to Buy iPhone*/
+
+ #ddd{
+    font-size:50px;
+    font-weight: 900;
+    color: white;
+ }
+ #fx{
+    background-color: white;
+ }
+
+#CAA1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+  /* Ways to Buy iPhone end*/
+
+   /* APPLE WATCH 9*/
+
+  /* rotating start */
+#rrr{
+    height: 100%;
+    width: 100%; 
+    position: relative;
+    top: 110px;
+    animation: mymove 10s infinite;
+    border-radius: 400px;
+}
+
+@keyframes mymove {
+    50% {transform: rotate(360deg);}
+  }
+
+  @media screen and (max-width:767px)
+{
+    #rrr{
+        height: 100%;
+        width: 100%; 
+        position: relative;
+        top: 110px;
+        animation: mymove 10s infinite;
+        border-radius: 400px;
+        overflow: hidden;
+    }
+}
+#fd{
+    position: relative;
+    top: 300px;
+}
+#ti{
+    font-size: 50px;
+  font-weight: 700;
+}
+#hjk{
+    background-color: white;
+}
+
+   /* rotating end */
+
+
+ /* Featured accessories*/
+   .color{
+    background-color: white;
+   }
+
+   #sdf{
+    font-size: 50px;
+    font-weight: 900;
+   }
+   #lkj{
+    width: 100%;
+    height: 100%;
+   }
+   #bn{
+    position: relative;
+    top: 100px;
+   }
+   #dld{
+    font-size: 80px;
+    font-weight: 500;
+   }
+   #POI{
+    font-size: 30px;
+   }
+   @media screen and (max-width:767px)
+   {
+    #sdf{
+        font-size: 50px;
+        font-weight: 900;
+        padding-top: 180px;
+       }
+       #lkj{
+        width: 100%;
+        height: 100%;
+        padding-top: 130px;
+       }
+   }
+
+   @media screen and (max-width:1300px)
+   {
+    #sdf{
+        font-size: 50px;
+        font-weight: 900;
+        padding-top: 180px;
+       }
+       #lkj{
+        width: 100%;
+        height: 100%;
+        padding-top: 130px;
+       }
+   }
+    /*  Featured accessories */
+
+        /*  airpods max  */
+#DSP{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+            /*  airpods max end */
+           
+
+      /* iPhone an iPhone */
+#fgff{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+      /* iPhone an iPhone end */

@@ -1,0 +1,376 @@
+#sd{
+     background-color: black;
+     color: aliceblue;
+     line-height: 80px;
+}
+
+
+/* APPLE WATCH ULTRA*/
+.bgcontainer{
+     position: relative;
+     top: 0;
+ }
+ 
+ #rds{
+   object-fit: cover;
+     height: 100%;
+     width: 100%;
+ }
+
+ #r{
+     height: 80px;
+     width: 200px;
+ }
+ 
+ 
+ .rrdcontainer{
+    position: absolute;
+    top: 450px;
+    left:0px ;
+    color: antiquewhite;  
+ }
+ 
+ 
+ 
+ h3.rwlc{
+     font-size: 50px;
+     font-weight: 700;
+ }
+ h3.rtitale{
+     font-size: 50px;
+     font-weight: 700;
+ }
+ 
+ #rre{
+  border-radius: 20px;
+  font-size: 25px;
+ letter-spacing: 0.1em ;
+ line-height: 35px;
+ color: black;
+ }
+ 
+ #rre:hover{
+     background-color: transparent;
+     color: aliceblue;
+     
+ }
+
+ @media screen and (max-width:767px)
+{
+    #sd{
+        background-color: black;
+        color: aliceblue;
+        line-height: 30px;
+   }
+
+   .rrdcontainer{
+    position: absolute;
+    top: 170px;
+    left:0px ;
+    color: antiquewhite;  
+ }
+ 
+ h3.rwlc{
+     font-size: 10px;
+     font-weight: 700;
+ }
+ h3.rtitale{
+     font-size: 10px;
+     font-weight: 700;
+ }
+}@media screen and (max-width:1300px)
+{
+    #sd{
+        background-color: black;
+        color: aliceblue;
+        line-height: 30px;
+   }
+
+   .rrdcontainer{
+    position: absolute;
+    top: 170px;
+    left:0px ;
+    color: antiquewhite;  
+ }
+ 
+ h3.rwlc{
+     font-size: 10px;
+     font-weight: 700;
+ }
+ h3.rtitale{
+     font-size: 10px;
+     font-weight: 700;
+ }
+}
+ /* APPLE WATCH ULTRA*/
+
+ /* APPLE WATCH 9*/
+.obgcontainer{
+     position: relative;
+     top: 0;
+ }
+ 
+ #ords{
+   
+     height: 100%;
+     width: 100%;
+ }
+
+
+ 
+ 
+ .orrdcontainer{
+    position: absolute;
+    top: 1450px;
+    left:350px ;
+    color: black;
+    
+ }
+ 
+
+ h3.orwlc{
+     font-size: 50px;
+     font-weight: 700;
+ }
+ h3.ortitale{
+     font-size: 50px;
+     font-weight: 700;
+ }
+ 
+ #orre{
+  border-radius: 20px;
+  font-size: 25px;
+ letter-spacing: 0.1em ;
+ line-height: 15px;
+ color: white;
+ background-color: black;
+ }
+ 
+ #orre:hover{
+     background-color: white;
+     color: black;
+ }
+ 
+ @media screen and (max-width:767px)
+{
+    .orrdcontainer{
+        position: absolute;
+        top: 825px;
+        left:40px ;
+        color: black;
+        
+     }
+     h3.orwlc{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    h3.ortitale{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+ /* APPLE WATCH 9*/
+
+  /* APPLE WATCH SE */
+#rrr{
+    height: 100%;
+    width: 100%; 
+    position: relative;
+    top: 110px;
+    animation: mymove 10s infinite;
+    border-radius: 200px;
+}
+
+@keyframes mymove {
+    50% {transform: rotate(360deg);}
+  }
+
+#fd{
+    position: relative;
+    top: 300px;
+}
+#ti{
+    font-size: 50px;
+  font-weight: 700;
+}
+
+   /* APPLE WATCH SE */
+
+     /* CORBON NATURAL */
+      #hgf{
+        position: relative;
+        top: 60px;
+      }
+
+      #rdo{
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and (max-width:767px)
+      {
+        #hgf{
+            position: relative;
+            top: 60px;padding-top: 60%; ;
+          }
+      }      
+
+       /* CORBON NATURAL */
+
+    /* WATHES */
+    #df{
+        height: 100%;
+        width: 100%;
+    }
+    #de{
+        position: relative;
+        top: 130px;
+    }
+    #fee{
+        font-weight: bold;
+    }
+
+    #all{
+        line-height: 50px;
+    }
+   
+      /* WATHES END */
+
+      /* HAND WATCH */
+      #fddd{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 20px;
+      }
+      #rdr{
+        font-weight: 700;
+      }
+         /*  HAND WATCH END */   
+
+
+
+  /*  watchesss */  
+         
+
+
+#wattvds{
+  
+    height: 40% ;
+    width: 40%;
+  
+}
+
+
+
+.wattvcontainer{
+
+   color: black;
+}
+
+
+
+h3.wattvwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3.wattvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#wattvre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: white;
+background-color: black;
+}
+
+#wattvre:hover{
+    background-color: transparent;
+    color:black;
+}
+
+ /*  watchessssssssssssssssssssssssss */  
+         
+
+
+#rwattvds{
+  
+    height: 50% ;
+    width: 50%;
+    position: relative;
+    top: 200px;
+}
+
+
+
+.rwattvcontainer{
+    position: relative;
+    top: 130px;
+   color: black;
+}
+
+
+
+h3.rwattvwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3.rwattvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#rwattvre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: white;
+background-color: black;
+}
+
+#rwattvre:hover{
+    background-color: transparent;
+    color:black;
+    
+}
+
+
+#rer{
+    position: relative;
+    top: 400px;
+    font-size: 50px;
+}
+
+#FGG{
+    position: relative;
+    top: 400px;
+    height: 100%;
+    width: 100%;
+    border-radius: 150px;
+
+}
+@media screen and (max-width:767px)
+{
+    #rwattvds{
+  
+        height: 50% ;
+        width: 50%;
+        position: relative;
+        top: 400px;
+    }
+    
+    
+    
+    .rwattvcontainer{
+        position: relative;
+        top: 330px;
+       color: black;
+    }
+}
+

@@ -1,0 +1,980 @@
+
+
+*{
+    font-family:Arial, Helvetica, sans-serif; 
+  
+}
+
+
+#a{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    font-size:15px ;
+    line-height: 40px;
+}
+
+/*ENTRANCE IPHONE VIDEO*/
+
+
+.bgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#ds{
+  
+    height: 100%;
+    width: 100%;
+}
+
+
+.rdcontainer{
+   position: absolute;
+   top: 380px;
+   left:450px ;
+   color: antiquewhite;
+}
+
+
+
+h3.wlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+h3.titale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#re{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: black;
+}
+
+#re:hover{
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+@media screen and (max-width:767px)
+{
+
+    #ds{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+   
+}
+    .rdcontainer{
+        position: absolute;
+        top: 300px;
+        left:10px ;
+        color: rgb(235, 224, 224);
+     }
+
+
+   
+    h3.wlc{
+        font-size: 45px;
+        font-weight: 600;
+        color: rgb(243, 237, 237);
+    }
+    h3.titale{
+        font-size: 20px;
+        font-weight: 300;
+        color: rgb(236, 226, 226);
+    }
+    
+    #re{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: black;
+    } 
+}
+
+
+@media screen and (max-width:1300px)
+{
+
+   
+
+    #ds{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+   
+}
+    .rdcontainer{
+        position: absolute;
+        top: 350px;
+        left:50%;
+transform:translate(-50%,-50%);
+        color: rgb(235, 224, 224);
+     }
+
+
+   
+    h3.wlc{
+        font-size: 45px;
+        font-weight: 600;
+        color: rgb(243, 237, 237);
+    }
+    h3.titale{
+        font-size: 20px;
+        font-weight: 300;
+        color: rgb(236, 226, 226);
+    }
+    
+    #re{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: black;
+    } 
+}
+/*ENTRANCE VIDEO END*/
+
+/*IPHONE 15*/
+#con{
+    font-size: 40px;
+    font-weight: 1000;
+    line-height: 80px;
+    padding-top:20px ;
+}
+#don{
+    height: 100%;
+    width: 100%;
+}
+
+#fe{
+    border-radius: 20px;
+    font-size: 25px;
+   letter-spacing: 0.1em ;
+   line-height: 15px;
+   color: antiquewhite;
+   background-color: black;
+   }
+   
+   #fe:hover{
+       background-color: transparent;
+       color: black;
+       
+   }
+   @media screen and (max-width:767px)
+   {
+    #don{
+        object-fit: cover;
+        height: 400px;
+        width: 100%;
+    }
+   }
+
+
+/* IPHONE 15 END*/
+
+
+/* APPLE WATCH VIDEO*/
+
+
+.vbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#vds{
+  
+    height: 80%;
+    width: 80%;
+  
+}
+
+
+.vcontainer{
+   position: absolute;
+   top: 380px;
+   left:450px ;
+   color: antiquewhite;
+}
+
+
+
+h3.vwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+h3.vtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#vre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: black;
+}
+
+#vre:hover{
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #vds{
+   object-fit: cover;
+        height: 500px;
+        width: 100%;     
+    }
+
+    .vcontainer{
+        position: absolute;
+        top: 300px;
+        left:50px ;
+        color: antiquewhite;
+     }
+   
+    h3.vwlc{
+        font-size: 45px;
+        font-weight: 800;
+        color: rgb(245, 226, 226);
+    }
+    h3.vtitale{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #vre{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: black;
+    } 
+}
+
+@media screen and (max-width:1300px)
+{
+    .vcontainer{
+        position: absolute;
+        top: 350px;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color: antiquewhite;
+     }
+
+     #vds{
+        object-fit: cover;
+             height: 500px;
+             width: 100%;     
+         }
+}
+
+/* APPLE WATCH VIDEO*/
+
+/* APPLE WATCH SIRES 9 */
+.tvbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#tvds{
+  
+    height: 100% ;
+    width: 100%;
+  
+}
+
+
+.tvcontainer{
+   position: absolute;
+   top: 10px;
+   left:200px ;
+   color: antiquewhite;
+}
+
+h3.xtvwlc{
+    font-size: 15px;
+    
+    color: red;
+}
+
+h3.tvwlc{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3.tvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#tvre{
+ border-radius: 20px;
+ font-size: 25px;
+ 
+line-height: 10px;
+color: black;
+}
+#de{
+    border-radius: 20px;
+    font-size: 20px;
+   letter-spacing: 0.1em ;
+   line-height: 15px;
+   color: black;
+   background-color: white;
+   }
+
+
+#tvre:hover{
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #tvds{
+  object-fit: cover;
+        height: 500px;
+        width: 100%;
+        
+          
+    }
+     
+    .tvcontainer{
+        position: absolute;
+        top: 300px;
+        left:50px ;
+        color: antiquewhite;
+     }
+    
+    h3.tvwlc{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    h3.tvtitale{
+        font-size: 15px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #tvre{
+     border-radius: 20px;
+     font-size: 15px;
+    
+    line-height: 15px;
+    color: black;
+    } 
+}
+
+
+@media screen and (max-width:1300px)
+{
+    #tvds{
+  object-fit: cover;
+        height: 600px;
+        width: 100%;
+        
+          
+    }
+     
+    .tvcontainer{
+        position: absolute;
+        top: 450px;
+        left:50%;
+transform:translate(-50%,-50%);
+        color: antiquewhite;
+     }
+    
+    h3.tvwlc{
+        font-size: 70px;
+        font-weight: 300;
+        color: rgb(248, 235, 235);
+    }
+    h3.tvtitale{
+        font-size: 15px;
+        font-weight: 300;
+        color: rgb(255, 255, 255);
+    }
+    
+    #tvre{
+     border-radius: 20px;
+     font-size: 15px;
+    
+    line-height: 15px;
+    color: black;
+    } 
+}
+/* APPLE WATCHes ultraa */
+
+
+.ttvbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#ttvds{
+  
+    height: 100% ;
+    width: 100%;
+    position: relative;
+    top: 250px;
+}
+
+
+
+.ttvcontainer{
+   position: absolute;
+   top: 0px;
+   left:180px ;
+   color: black;
+}
+
+
+
+h3.ttvwlc{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3.xttvwlc{
+    font-size: 15px;
+   
+    color: red;
+}
+h3.ttvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#ev{
+    border-radius: 20px;
+    font-size: 23px;
+  
+   line-height: 15px;
+   color: white;
+   background-color: black;
+   }
+   
+   #ev:hover{
+       background-color: transparent;
+       color: black;
+       
+   }
+
+#ttvre{
+ border-radius: 20px;
+ font-size: 25px;
+ 
+line-height: 10px;
+color: white;
+background-color: black;
+}
+
+#ttvre:hover{
+    background-color: transparent;
+    color:black;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #ttvds{
+  object-fit: cover;
+        height: 400px;
+        width: 100%;          
+    }
+
+    .ttvcontainer{
+        position: absolute;
+        top: 50px;
+        left:80px ;
+        color: black;
+     }
+   
+    h3.ttvwlc{
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    h3.ttvtitale{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #ttvre{
+     border-radius: 20px;
+     font-size: 15px;
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+    } 
+}
+@media screen and (max-width:1300px)
+{
+    #ttvds{
+  object-fit: cover;
+        height: 400px;
+        width: 100%;          
+    }
+
+    .ttvcontainer{
+        position: absolute;
+        top: 100px;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color: black;
+     }
+     
+    }
+
+
+/*MACK BOOK PRO*/
+
+
+
+.attvbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#attvds{
+  
+    height: 100% ;
+    width: 100%;
+    position: relative;
+    top: 250px;
+}
+
+
+
+.attvcontainer{
+   position: absolute;
+   top: 0px;
+   left:180px ;
+   color: black;
+}
+
+
+
+h3.attvwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3.attvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#attvre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: white;
+background-color: black;
+}
+
+#attvre:hover{
+    background-color: transparent;
+    color:black;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #attvds{
+  object-fit: cover;
+        height: 100%;
+        width: 100%;
+        padding-top: 250px;
+          
+    }
+
+    .attvcontainer{
+          position: absolute;
+          top: 280px;
+          left:40px ;
+          color: black;
+}
+   
+    h3.attvwlc{
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    h3.attvtitale{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #attvre{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: rgb(255, 250, 250);
+    } 
+}
+
+
+@media screen and (max-width:1300px)
+{
+    #attvds{
+  object-fit: cover;
+        height: 100%;
+        width: 100%;
+        padding-top: 250px;
+          
+    }
+
+    .attvcontainer{
+          position: absolute;
+          top: 340px;
+          left:50%;
+          transform:translate(-50%,-50%);
+          color: black;
+}
+}
+/*ipade PRO*/
+
+
+
+.bttvbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#bttvds{
+  
+    height: 50% ;
+    width: 50%;
+    position: relative;
+    top: 250px;
+}
+
+
+
+.bttvcontainer{
+   position: absolute;
+   top: 0px;
+   left:180px ;
+   color: black;
+}
+
+
+
+h3.bttvwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3.bttvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#bttvre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: white;
+background-color: black;
+}
+
+#bttvre:hover{
+    background-color: transparent;
+    color:black;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #bttvds{
+  
+        height: 100%;
+        width: 100%;  
+        padding-top: 180px;
+    }
+
+    .bttvcontainer{
+        position: absolute;
+        top: 260px;
+        left:50px ;
+        color: black;
+     }
+   
+    h3.bttvwlc{
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    h3.bttvtitale{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #bttvre{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: rgb(255, 251, 251);
+    } 
+}
+
+
+
+@media screen and (max-width:1300px)
+{
+    #bttvds{
+  
+        height: 100%;
+        width: 100%;  
+        padding-top: 240px;
+    }
+
+    .bttvcontainer{
+        position: absolute;
+        top: 360px;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color: black;
+     }
+    }
+
+
+/*AIRPORD PRO*/
+
+
+
+.wattvbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#wattvds{
+  
+    height: 40% ;
+    width: 40%;
+    position: relative;
+    top: 350px;
+}
+
+
+
+.wattvcontainer{
+   position: absolute;
+   top:130px;
+   left:180px ;
+   color: black;
+}
+
+
+
+h3.wattvwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3.wattvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#wattvre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: white;
+background-color: black;
+}
+
+#wattvre:hover{
+    background-color: transparent;
+    color:black;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #wattvds{
+  
+        height: 100%;
+        width: 100%;
+    }
+
+    .wattvcontainer{
+   position: absolute;
+   top:130px;
+   left:40px ;
+   color: black;
+   padding-top:50%;
+}
+   
+    h3.wattvwlc{
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    h3.wattvtitale{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #wattvre{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: rgb(255, 246, 246);
+    } 
+}
+
+
+@media screen and (max-width:1300px)
+{
+    #wattvds{
+  
+        height: 80%;
+        width: 80%;
+    }
+
+    .wattvcontainer{
+   position: absolute;
+   top:130px;
+   left:50%;
+   transform:translate(-50%,-50%);
+   color: black;
+}}
+
+/* TRADE IN*/
+
+
+
+.ebttvbgcontainer{
+    position: relative;
+    top: 0;
+}
+
+#ebttvds{
+  
+    height: 100% ;
+    width: 100%;
+    position: relative;
+    top: 350px;
+}
+
+
+
+.ebttvcontainer{
+   position: absolute;
+   top: 130px;
+   left:130px ;
+   color: black;
+}
+
+
+
+h3.ebttvwlc{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3.ebttvtitale{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#ebttvre{
+ border-radius: 20px;
+ font-size: 25px;
+letter-spacing: 0.1em ;
+line-height: 15px;
+color: white;
+background-color: black;
+}
+
+#ebttvre:hover{
+    background-color: transparent;
+    color:black;
+    
+}
+
+@media screen and (max-width:767px)
+{
+    #ebttvds{
+  
+        height: 100%;
+        width: 100%;    
+        padding-top: 220px;
+    }
+    .ebttvcontainer{
+        position: absolute;
+        top: 360px;
+        left:40px ;
+        color: black;
+     }
+   
+     
+    h3.ebttvwlc{
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+    }
+    h3.ebttvtitale{
+        font-size: 20px;
+        font-weight: 300;
+        color: black;
+    }
+    
+    #ebttvre{
+     border-radius: 20px;
+     font-size: 15px;
+    letter-spacing: 0.1em ;
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+    } 
+}
+
+@media screen and (max-width:1300px)
+{
+    #ebttvds{
+  
+        height: 100%;
+        width: 100%;    
+        padding-top: 220px;
+    }
+    .ebttvcontainer{
+        position: absolute;
+        top: 460px;
+        left:50%;
+        transform:translate(-50%,-50%);
+        color: black;
+     }}
+
+#AQAQ{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   padding-top: 380px;
+}

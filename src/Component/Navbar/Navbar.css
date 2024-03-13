@@ -1,0 +1,11 @@
+#e:hover{
+    background: #a6aab1;
+border-radius: 2px;
+    box-shadow: 0px 0px 20px #bfc7d3
+ 
+}
+
+#e:active{
+    background: #7d8fad;
+   
+}
